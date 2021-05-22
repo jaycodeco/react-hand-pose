@@ -1,9 +1,6 @@
 //###### styles ##############
 
 export const graph_style = {
-  position: "absolute",
-  marginRight: "10px",
-  right: 0,
   zIndex: 9,
   width: 650,
   height: 480,
@@ -11,9 +8,6 @@ export const graph_style = {
 };
 
 export const cam_style = {
-  position: "absolute",
-  marginLeft: "10px",
-  left: 0,
   zIndex: 9,
   width: 650,
   height: 480,

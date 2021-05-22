@@ -47,9 +47,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Webcam ref={camRef} style={cam_style} />
+        <Webcam ref={camRef} style={cam_style} className="part" />
 
-        <canvas ref={graphRef} style={graph_style} />
+        <canvas ref={graphRef} style={graph_style} className="part" />
       </header>
     </div>
   );
